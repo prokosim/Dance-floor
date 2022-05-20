@@ -1,3 +1,12 @@
+/////////////////////////////////////
+// Make a cube, pičo
+const cube = new Entity();
+engine.addEntity(cube);
+cube.addComponent(new Transform());
+cube.getComponent(Transform).position.set(8,0.5,8);
+cube.addComponent(new BoxShape())
+
+
 const colors = [
   '#1dccc7',
   '#ffce00',
@@ -94,7 +103,7 @@ trevor.addComponent(
   })
 )
 
-const audioClip = new AudioClip('sounds\minedate_short.mp3')
+const audioClip = new AudioClip('sounds\Vexento.mp3')
 audioClip.loop = true
 const audioSource = new AudioSource(audioClip)
 trevor.addComponent(audioSource)
