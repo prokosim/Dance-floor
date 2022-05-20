@@ -94,7 +94,7 @@ trevor.addComponent(
   })
 )
 
-const audioClip = new AudioClip('sounds/Vexento.mp3')
+const audioClip = new AudioClip('sounds\minedate_short.mp3')
 audioClip.loop = true
 const audioSource = new AudioSource(audioClip)
 trevor.addComponent(audioSource)
